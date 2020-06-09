@@ -7,5 +7,9 @@ class Course
     @description = description
     @@all << self
   end
+  
+  def all
+    @@all
+  end
 end
 
