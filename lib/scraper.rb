@@ -21,7 +21,6 @@ class Scraper
   end
   
   def get_courses
- 
     self.get_pages.css(".post").first.css("h2").text
   end
 end
